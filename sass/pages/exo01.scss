@@ -1,0 +1,40 @@
+#slogan
+{
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+
+#slogan > figure {
+	display: flex;
+	justify-content: center;
+}
+
+#slogan > figure > figcaption
+{
+	display: flex;
+	flex-direction: column;
+	padding-top: 2rem;
+	padding-left: 6rem;
+}
+
+#slogan > figure > figcaption > h2{
+	font-family: melbournebold;
+	font-size: 3rem;
+}
+
+#slogan > figure > figcaption > h2:first-child{
+	justify-content: flex-start;
+}
+
+#slogan > figure > figcaption > h2:last-child{
+	justify-content: flex-end;
+}
+
+#slogan > div{
+	display: flex;
+}
+
+#slogan article{
+	width: 30%;
+
+}
